@@ -1,3 +1,5 @@
+cambios
+
 1.	Crear una carpeta y dale clic derecho abrir con git bash
 
 2.	Utiliza git init para comenzar
