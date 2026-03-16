@@ -1,6 +1,10 @@
 1.	Crear una carpeta y dale clic derecho abrir con git bash
 2.	Utiliza git init para comenzar
 3.	Crearemos un archivo llamado paso 1 con Cat > nombre del archivo
-[A[C[C[C[C[C[C[C[C[C[C[C[A[C[A[C
-
-
+4.	Depues utilizaremmos un git status  –s para ver el estado y veremos signo de interrogacion
+5.	Para añadirlo al area de ensayo utilizamos git add (nombre del archivo) o git add .(añade todo)
+6.	Otro git status –s
+7.	Ahora haremos un commit –m (“lo que vallas a decir”) para dejar un comentario
+8.	Ants de subirlo debes conectarlo al repositorio de la pagina git hub utilizando ssh o http pero usaremos ssh(la clave) en la pagina de git hub buscar ssh y abajp te dara un enlace parecidos a este:( git remote add origin git@github.com:ElvinSHenriquez-source/pasos.git) en caso que este conectado a otra rama quieras usar ssh puede utilizar (git remote set-url origin git@github.com:ElvinSHenriquez-source/repositorio.git)
+9.	La primera vez que valla a subir un archivo usa git push -u origin master(tu rapa puede tener el nombre main) depues de eso puede usar git push infinitamente
+10.	Ahora si haces un cambio desde github puede bajorlo usando git pull
