@@ -1,0 +1,6 @@
+1.	Crear una carpeta y dale clic derecho abrir con git bash
+2.	Utiliza git init para comenzar
+3.	Crearemos un archivo llamado paso 1 con Cat > nombre del archivo
+[A[C[C[C[C[C[C[C[C[C[C[C[A[C[A[C
+
+
