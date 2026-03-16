@@ -1,15 +1,39 @@
 1.	Crear una carpeta y dale clic derecho abrir con git bash
+
 2.	Utiliza git init para comenzar
-3.	Crearemos un archivo llamado paso 1 con Cat > nombre del archivo
-4.	Depues utilizaremmos un git status  –s para ver el estado y veremos signo de interrogacion
-5.	Para añadirlo al area de ensayo utilizamos git add (nombre del archivo) o git add .(añade todo)
-6.	Otro git status –s
-7.	Ahora haremos un commit –m (“lo que vallas a decir”) para dejar un comentario
-8.	Ants de subirlo debes conectarlo al repositorio de la pagina git hub utilizando ssh o http pero usaremos ssh(la clave) en la pagina de git hub buscar ssh y abajp te dara un enlace parecidos a este:( git remote add origin git@github.com:ElvinSHenriquez-source/pasos.git) en caso que este conectado a otra rama quieras usar ssh puede utilizar (git remote set-url origin git@github.com:ElvinSHenriquez-source/repositorio.git)
-9.	La primera vez que valla a subir un archivo usa git push -u origin master(tu rapa puede tener el nombre main) depues de eso puede usar git push infinitamente
-10.	Ahora si haces un cambio desde github puede bajorlo usando git pull
-11.	Si quieres comprobar lo cambios por ejemlo usar cat y el nombre del archivo para verlos o git status
-12.	Ahora para crear una rama usa git branch <nombre de la rama> y para cheaquear que se hizo usa git branch solo 
-13.	Para utilizar la otra rama tiene que usar git checkout <nombre de la rama>
-14.	Ahora haremos un archivos y lo meteremos a la area de ensayo para depues agregarle un coomit y asi funcionar las dos ramas (la que creaste y la originar) con merge
+
+3.	Crearemos un archivo llamado paso 1 con cat > nombre del archivo.
+
+4.	Depues utilizaremmos un git status  –s para ver el estado y veremos signo de interrogacion.
+
+5.	Para añadirlo al area de ensayo utilizamos git add <nombre del archivo> o git add .(añade todo)
+
+6.	Otro git status –s para verificar si quieres tendria que aparecerte una A
+
+7.	Ahora haremos un git commit –m (“lo que vallas a decir”) para dejar un comentario.
+
+8.	Antes de subirlo debes conectarlo al repositorio de la pagina git hub utilizando ssh o http pero usaremos ssh en la pagina de git hub buscar ssh y abajo te dara un enlace parecidos a este:( git remote add origin git@github.com:ElvinSHenriquez-source/pasos.git) en caso que este conectado a otra rama quieras usar ssh puede utilizar (git remote set-url origin git@github.com:ElvinSHenriquez-source/repositorio.git).
+
+9.	La primera vez que valla a subir un archivo usa git push -u origin master(puede tener el nombre main) depues de eso puede usar git push infinitamente.
+
+10.	Ahora si haces un cambio desde github puede bajorlo usando git pull.
+
+11.	Si quieres comprobar lo cambios por ejemplo usar cat <nombre del archivo> para verlos o git status --s Para ver su estado.
+
+12.	Ahora para crear una rama usando git branch <nombre de la rama> y para cheaquear que se hizo o creo una rama usa git branch solo.
+
+13.	Para utilizar la otra rama tiene que usar git checkout <nombre de la rama>.
+
+14.	Ahora haremos un archivos y lo meteremos a la area de ensayo para depues agregarle un coomit y asi funcionar las dos ramas (la que creaste y la originar) con merge y toma en cuenta que debereas utilizar git push –u origin <nombre de la rama> para subuirlos cambios.
+
+15.	Si quieres fucionar una rama con otras debes de estar adentro de ella por ejmplo si quiere fucionar tu rama main/master con otra que alla creado debes de esta en esa rama recuerda usar git checkout <nombre de la rama>
+16.	Ahora si quieres fusionar una sola rama pones git merge <nombre de la rama que se fusionara con la que estes>.
+
+17.	Usa git push para subir todo
+
+18.	Para eliminar una rama del repository local usa git branch –D <nombre de la rama>
+
+19.	Ahora si quieres eliminarla de github usa git push origin --delete <nombre de la rama>
+
+20.	Para asegura de todo esta correcto usa git push para actualizar el estado del proyecto y notaras que se elimino la rama
 
