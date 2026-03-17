@@ -36,3 +36,6 @@
 19.	Ahora si quieres eliminarla de github usa git push origin --delete <nombre de la rama>
 
 20.	Para asegura de todo esta correcto usa git push para actualizar el estado del proyecto y notaras que se elimino la rama
+
+21. Para hace un fork vas a github y le das a crear nuevo fork para bajarlo vas a usar git clone <enlace> y listo
+la verdad es que no puede hacer nada con el almenos que le hagas cambios como un nuevo archivo o cambio en lo que este ahi.
